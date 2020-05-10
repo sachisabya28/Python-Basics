@@ -23,9 +23,19 @@ print(fruit)
 #
 # for key in fruit:
 #     print(fruit[key])
+#
+# fruit_keys = fruit.keys()
+# print(fruit_keys)
+#
+# fruit["tomato"] = "not nice with ice cream"
+# print(fruit_keys)
+print(fruit)
+print(fruit.items())
+f_tuple = tuple(fruit.items())
+print(f_tuple)
 
-fruit_keys = fruit.keys()
-print(fruit_keys)
+for snack in f_tuple:
+    item, description = snack
+    print(item + " is " + description)
 
-fruit["tomato"] = "not nice with ice cream"
-print(fruit_keys)
+print(dict(f_tuple))
