@@ -1,0 +1,10 @@
+1. Python Installation
+2. Python Data type and Variables
+3. Numbers
+4. Strings
+5. List and Tuple
+6. Dictionary
+7. Set
+8. Flow statements
+9. Functions
+10. IO operations
